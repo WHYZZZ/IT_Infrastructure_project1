@@ -1,0 +1,7 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "This project is example of  Responsive and Navigation menu",
+  "main": "index.html",
+  "keywords": ["CSS", "Responsive"]
+}

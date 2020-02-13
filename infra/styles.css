@@ -1,0 +1,415 @@
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+header {
+  background-color: #6AB6C6;
+  float: right;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.row {
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  margin: 1%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 98%;
+  min-height: 200px;
+}
+
+div {
+  background-color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 31%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* For desktop: */
+  .container {
+    width: 75%;
+    margin: auto;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 30%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+.ls-header {
+  background-color: #6AB6C6;
+}
+.ls-header .ls-header-top {
+  background-color: #6AB6C6
+}
+.ls-header .ls-header-bottom {
+  overflow: hidden;
+  background-color: #6AB6C6;
+}
+
+.toplogo {
+  overflow: hidden;
+  background-color: #6AB6C6;
+  font-family: Helvetica, Arial, freesans, sans-serif;
+  color: white;
+  padding-left: 35px;
+}
+
+/*w3school*/
+button {
+  background: #6AB6C6;
+  font-size: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  color:#fff;
+}
+button:hover {
+  opacity: 0.5;
+}
+
+
+/*ozininki*/
+.ls-header-bottom {
+  overflow: hidden;
+  float: center;
+  font-size: 100%;
+  padding-top: 25px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #6AB6C6;
+  font-family: Helvetica, Arial, freesans, sans-serif;
+  font-size: 0.875rem;
+  color: white;
+  padding-left: 25px;
+}
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6AB6C6;
+}
+
+/* Style the topnav links */
+.topnav li a,
+.dropbtn {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-left: 1px solid #6AB6C6;
+  border-bottom: 0.155rem solid #6AB6C6;
+}
+*/
+
+/* Change color on hover */
+.topnav a:hover {
+  border-bottom: 0.155rem solid #fefefe;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+  }
+  .card {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+  .card {
+    width: 100px;
+  }
+}
+
+.top-link {
+  text-align: justify;
+  background: #6AB6C6;
+  float: right;
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .top-link {
+    float: right;
+  }
+  .top-link a {
+    float: right;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}
+
+/* Full-width input fields */
+.modal input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #6AB6C6;
+}
+
+.logcontainer, .cancelcontainer {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color:#bb1919;
+  cursor: pointer;
+}
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+      .subnav ul {
+        font-size: 0.875rem;
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        border-bottom: 1px solid lightgray;
+        padding-left: 30px;
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
+      
+      .subnav li {
+        float: left;
+        margin-right: 10px;
+      }
+      
+      .subnav li a {
+        display: block;
+        color: gray;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+      }
+      
+      .subnav li a:hover:not(.active) {
+        font-weight: bold;
+      }
+      
+      .subnav li a:link {
+        color: gray;
+      }
+      .active {
+        background-color: #4caf50;
+      }
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-2 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.card a{
+  text-decoration: none;
+  color: #000000;
+}

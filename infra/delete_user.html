@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Delete User</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-text-teal,.w3-hover-text-teal:hover{color:#6AB6C6!important}
+.topnav {
+  overflow: hidden;
+  background-color: #6AB6C6;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right: 1px solid white;
+}
+
+.topnav a:hover {
+  opacity: 0.5;
+}
+
+
+.topnav .search-container {
+  float: right;
+  background-color: #6AB6C6;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid white;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #6AB6C6;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+
+.topnav .search-container button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+<body>
+    <div class="topnav">
+            <a href="private_admin.html">Back</a>
+            <a href="add_user.html">Add User</a>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+
+<div class="w3-container">
+    <h2>DELETE USER</h2>
+    <p>You can delete user from this list:</p>
+    <ul class="w3-ul w3-card-4">
+      <li class="w3-bar">
+        <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+        <i class="w3-bar-item fa fa-user fa-fw w3-margin w3-xlarge w3-text-teal" style="font-size:36px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i> 
+        <div class="w3-bar-item">
+          <span class="w3-large">Mike</span><br>
+          <span>Web Designer</span>
+        </div>
+      </li>
+  
+      <li class="w3-bar">
+        <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+        <i class="w3-bar-item fa fa-user fa-fw w3-margin w3-xlarge w3-text-teal" style="font-size:36px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i> 
+        <div class="w3-bar-item">
+          <span class="w3-large">Jill</span><br>
+          <span>Support</span>
+        </div>
+      </li>
+  
+      <li class="w3-bar">
+        <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+        <i class="w3-bar-item fa fa-user fa-fw w3-margin w3-xlarge w3-text-teal" style="font-size:36px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i> 
+        <div class="w3-bar-item">
+          <span class="w3-large">Jane</span><br>
+          <span>Accountant</span>
+        </div>
+      </li>
+      
+          <li class="w3-bar">
+        <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+        <i class="w3-bar-item fa fa-user fa-fw w3-margin w3-xlarge w3-text-teal" style="font-size:36px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i> 
+        <div class="w3-bar-item">
+          <span class="w3-large">Jane</span><br>
+          <span>Accountant</span>
+        </div>
+      </li>
+      
+    </ul>
+</div>
+
+</body>
+</html>
